@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>云音乐商城-音乐购有趣</title>
+    <link rel="icon" href="favicon.ico" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header class="container">
+        <div>
+            <a href="#" class="fl logo"></a>
+        </div>
+        <div class="user fr" id="user">
+            <img src="http://p4.music.126.net/cqG8rHfBGnD5skuQQVYO3g==/1364493931327915.jpg?param=36y36" alt="">
+            <i style="display: none" id="userI"></i>
+            <ul style="display: none" id="userList">
+                <li><a href="#">我的订单</a></li>
+                <li><a href="#">我的优惠券</a></li>
+                <li><a href="#">我的收货地址</a></li>
+                <li><a href="#">网易云音乐首页</a></li>
+                <li style="border-top: 1px solid rgba(0, 0, 0, 0.1)"> <a href="#">退出</a></li>
+            </ul>
+        </div>
+        <div class="shaopcar fr">
+            <a href="#">
+                <span></span>
+            </a>
+        </div>
+        <div class="search fr">
+            <form action=""><input type="text" placeholder="氧气耳机" id="searchIpt"></form>
+            <ul style="display: none" id="searchList">
+                <li style="border-bottom: 1px solid rgba(0, 0, 0, 0.1)">热门搜索</li>
+                <li><a href="">耳机</a></li>
+                <li><a href="">帆布袋</a></li>
+                <li><a href="">耳坠</a></li>
+                <li><a href="">尤克里里</a></li>
+                <li><a href="">蓝牙耳机</a></li>
+            </ul>
+        </div>
+    </header>
+    <div class="fixed" style="display: none">
+        <ul>
+            <li><span>100%<br>正品</span></li>
+            <li><span>七天无理由退货</span></li>
+            <li><a class="i-shopcar"></a><span style="height: 18px;margin-top: 0;">购物车</span></li>
+            <li><a class="i-kefu"></a><span style="height: 18px;margin-top: 0;">客服</span></li>
+            <li style="height: 35px;padding: 0"><a href="" class="totop"></a></li>
+        </ul>
+    </div>
+    <div class="banner">
+        <div style="display: block">
+            <a href="" class="banner-img"><img src="images/banner-1.jpg" alt="" id="bannerImg"></a>
+            <div class="banner-list">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <a class="banner-btnleft"><</a><a class="banner-btnright">></a>
+        </div>
+    </div>
+    <div class="tab">
+        <ul>
+            <li>
+                <a href="">
+                    <img src="images/tab-1.jpg" alt="">
+                    <span>数码影音</span>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="images/tab-2.jpg" alt="">
+                    <span>IP周边</span>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <img src="images/tab-3.jpg" alt="">
+                    <span>热销爆品</span>
+                </a>
+            </li>
+            <li>
+                <a href="" style="border: none">
+                    <img src="images/tab-4.jpg" alt="">
+                    <span>积分商城</span>
+                    <span style="color: red">54</span>
+                    <span>积分</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <main>
+
+        <div class="maintop container">
+            <a href="" style="margin-right: 16px"><img src="images/maintop-1.jpg" alt=""></a>
+            <a href=""><img src="images/maintop-2.jpg" alt=""></a>
+        </div>
+        <aside>
+            <ul>
+                <li><span>100%<br>正品</span></li>
+                <li><span>七天无理由退货</span></li>
+                <li><a class="i-shopcar"></a><span style="height: 18px;margin-top: 0;">购物车</span></li>
+                <li><a class="i-kefu"></a><span style="height: 18px;margin-top: 0;">客服</span></li>
+                <li style="height: 35px;padding: 0"><a href="" class="totop"></a></li>
+            </ul>
+        </aside>
+        <div class="goods container">
+            <h3>编辑推荐</h3>
+            <ul>
+                <li>
+                    <div>
+                        <a href="#" class="goods-img img1"></a>
+                        <div class="goods-price1">
+                            <span class="now-price">¥199</span>
+                            <span class="old-price"><del>¥259</del></span>
+                        </div>
+                        <span class="goods-msg">用券减30</span>
+                        <a href="#" class="goods-text">【网易云音乐专供款】漫步者W800X立体声头戴式蓝牙耳机</a>
+                        <div class="goods-price2">¥199</div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="#" class="goods-img img2"></a>
+                        <div class="goods-price1">
+                            <span class="now-price">¥39</span>
+                            <span class="old-price"><del>¥49</del></span>
+                        </div>
+                        <span class="goods-msg">特价</span>
+                        <a href="#" class="goods-text">网易云音乐古韵系列笔记本 四色可选</a>
+                        <div class="goods-price2">¥39</div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="#" class="goods-img img3"></a>
+                        <!--<div class="goods-price1">-->
+                            <!--<span class="now-price">¥199</span>-->
+                            <!--<span class="old-price"><del>¥259</del></span>-->
+                        <!--</div>-->
+                        <!--<span class="goods-msg"></span>-->
+                        <a href="#" class="goods-text">The Beatles Tomorrow 披头士联名款毛毡本（头像款） 国内正版授权</a>
+                        <div class="goods-price2">¥38</div>
+                    </div>
+                </li>
+                <li  style="padding-right: 0;width: 263px">
+                    <div>
+                        <a href="#" class="goods-img img4"></a>
+                        <!--<div class="goods-price1">-->
+                            <!--<span class="now-price">¥199</span>-->
+                            <!--<span class="old-price"><del>¥259</del></span>-->
+                        <!--</div>-->
+                        <span class="goods-msg">热门</span>
+                        <a href="#" class="goods-text">网易云音乐氧气耳机【再次售罄，预售中，5月5日前顺丰发货】</a>
+                        <div class="goods-price2">¥129</div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="#" class="goods-img img1"></a>
+                        <div class="goods-price1">
+                            <span class="now-price">¥199</span>
+                            <span class="old-price"><del>¥259</del></span>
+                        </div>
+                        <span class="goods-msg">用券减30</span>
+                        <a href="#" class="goods-text">【网易云音乐专供款】漫步者W800X立体声头戴式蓝牙耳机</a>
+                        <div class="goods-price2">¥199</div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="#" class="goods-img img2"></a>
+                        <div class="goods-price1">
+                            <span class="now-price">¥39</span>
+                            <span class="old-price"><del>¥49</del></span>
+                        </div>
+                        <span class="goods-msg">特价</span>
+                        <a href="#" class="goods-text">网易云音乐古韵系列笔记本 四色可选</a>
+                        <div class="goods-price2">¥39</div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="#" class="goods-img img3"></a>
+                        <!--<div class="goods-price1">-->
+                        <!--<span class="now-price">¥199</span>-->
+                        <!--<span class="old-price"><del>¥259</del></span>-->
+                        <!--</div>-->
+                        <!--<span class="goods-msg"></span>-->
+                        <a href="#" class="goods-text">The Beatles Tomorrow 披头士联名款毛毡本（头像款） 国内正版授权</a>
+                        <div class="goods-price2">¥38</div>
+                    </div>
+                </li>
+                <li  style="padding-right: 0;width: 263px">
+                    <div>
+                        <a href="#" class="goods-img img4"></a>
+                        <!--<div class="goods-price1">-->
+                        <!--<span class="now-price">¥199</span>-->
+                        <!--<span class="old-price"><del>¥259</del></span>-->
+                        <!--</div>-->
+                        <span class="goods-msg">热门</span>
+                        <a href="#" class="goods-text">网易云音乐氧气耳机【再次售罄，预售中，5月5日前顺丰发货】</a>
+                        <div class="goods-price2">¥129</div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="#" class="goods-img img1"></a>
+                        <div class="goods-price1">
+                            <span class="now-price">¥199</span>
+                            <span class="old-price"><del>¥259</del></span>
+                        </div>
+                        <span class="goods-msg">用券减30</span>
+                        <a href="#" class="goods-text">【网易云音乐专供款】漫步者W800X立体声头戴式蓝牙耳机</a>
+                        <div class="goods-price2">¥199</div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="#" class="goods-img img2"></a>
+                        <div class="goods-price1">
+                            <span class="now-price">¥39</span>
+                            <span class="old-price"><del>¥49</del></span>
+                        </div>
+                        <span class="goods-msg">特价</span>
+                        <a href="#" class="goods-text">网易云音乐古韵系列笔记本 四色可选</a>
+                        <div class="goods-price2">¥39</div>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="#" class="goods-img img3"></a>
+                        <!--<div class="goods-price1">-->
+                        <!--<span class="now-price">¥199</span>-->
+                        <!--<span class="old-price"><del>¥259</del></span>-->
+                        <!--</div>-->
+                        <!--<span class="goods-msg"></span>-->
+                        <a href="#" class="goods-text">The Beatles Tomorrow 披头士联名款毛毡本（头像款） 国内正版授权</a>
+                        <div class="goods-price2">¥38</div>
+                    </div>
+                </li>
+                <li  style="padding-right: 0;width: 263px">
+                    <div>
+                        <a href="#" class="goods-img img4"></a>
+                        <!--<div class="goods-price1">-->
+                        <!--<span class="now-price">¥199</span>-->
+                        <!--<span class="old-price"><del>¥259</del></span>-->
+                        <!--</div>-->
+                        <span class="goods-msg">热门</span>
+                        <a href="#" class="goods-text">网易云音乐氧气耳机【再次售罄，预售中，5月5日前顺丰发货】</a>
+                        <div class="goods-price2">¥129</div>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="fl">
+                <ul>
+                    <li><a href="#">关于网易</a></li>
+                    <li><a href="#">|</a></li>
+                    <li><a href="#">客户服务</a></li>
+                    <li><a href="#">|</a></li>
+                    <li><a href="#">服务条款</a></li>
+                    <li><a href="#">|</a></li>
+                    <li><a href="#">网站导航</a></li>
+                    <li><a href="#">|</a></li>
+                    <li><a href="#">意见反馈</a></li>
+                </ul>
+
+                <div class="fl copyright">
+                    <span>网易公司版权所有©1997-2018</span>
+                    <span>杭州乐读科技有限公司运营:</span>
+                    <a href="#">浙网文[2015] 0415-135号</a>
+                </div>
+            </div>
+            <ul>
+                <li><a href="#" class="foot-img1"></a></li>
+                <li><a href="#" class="foot-img2"></a></li>
+                <li><a href="#" class="foot-img3"></a></li>
+                <li><a href="#" class="foot-img4"></a></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
