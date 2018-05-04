@@ -70,21 +70,27 @@ function animate() {
         if (num!==aBannerImg.length-1){
             num++;
             bannerImg.src = aBannerImg[num];
-            banner.style.background = aBannerColor[num];
-            for (i=0;i<aPoint.length;i++){
-                aPoint[i].style ='';
+            bannerImg.onload = function () {
+                banner.style.background = aBannerColor[num];
+                for (i=0;i<aPoint.length;i++){
+                    aPoint[i].style ='';
+                }
+                aPoint[num].style.backgroundColor = 'red';
+                aPoint[num].style.opacity = '1';
             }
-            aPoint[num].style.backgroundColor = 'red';
-            aPoint[num].style.opacity = '1';
+
         }else {
             num = 0;
             bannerImg.src = aBannerImg[num];
             banner.style.background = aBannerColor[num];
-            for (i=0;i<aPoint.length;i++){
-                aPoint[i].style ='';
+            bannerImg.onload = function () {
+                for (i=0;i<aPoint.length;i++){
+                    aPoint[i].style ='';
+                }
+                aPoint[num].style.backgroundColor = 'red';
+                aPoint[num].style.opacity = '1';
             }
-            aPoint[num].style.backgroundColor = 'red';
-            aPoint[num].style.opacity = '1';
+
         }
     },2000)
 }
