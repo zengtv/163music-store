@@ -283,7 +283,8 @@ main {
 aside {
     position: absolute;
     top: 0;
-    right: 80px;
+    left: 50%;
+    margin-left: 570px;
 }
 aside ul {
     width: 60px;
