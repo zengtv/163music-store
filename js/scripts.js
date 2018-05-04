@@ -95,9 +95,10 @@ function animate() {
     },2000)
 }
 
+bannerImg.onload = animate();
+
 
 //鼠标悬停banner处清除定时器
-animate();
 banner.onmouseover = function () {
     clearInterval(Timer);
 };
