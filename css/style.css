@@ -58,6 +58,9 @@ body {
     word-break: break-word;
     word-wrap:break-word
 }
+.hiddenimg {
+    display: none;
+}
 /*~~~~~~~~~~~~~~~~header~~~~~~~~~~~~~~~~*/
 header {
     height: 73px;
