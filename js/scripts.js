@@ -170,7 +170,7 @@ for (var i=0;i<aPoint.length;i++){
 }
 
 
-//
+//侧栏随高度变化
 window.onscroll = function () {
     var t = document.documentElement.scrollTop || document.body.scrollTop;
     if (t >= 320) {
@@ -181,13 +181,12 @@ window.onscroll = function () {
         fixed.style.display = 'none';
     }
 };
-var toTop = document.getElementsByClassName('totop');
 
-toTop[0].onclick = function () {
-    var t = document.documentElement.scrollTop || document.body.scrollTop;
-    t = 0;
-};
-toTop[1].onclick = function () {
-    var t = document.documentElement.scrollTop || document.body.scrollTop;
-    t = 0;
-};
+
+
+//返回顶部
+
+function toTop () {
+    document.documentElement.scrollTop = 0;
+    document.body.scrollTop = 0;
+}
