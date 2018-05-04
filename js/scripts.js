@@ -82,8 +82,8 @@ function animate() {
         }else {
             num = 0;
             bannerImg.src = aBannerImg[num];
-            banner.style.background = aBannerColor[num];
             bannerImg.onload = function () {
+                banner.style.background = aBannerColor[num];
                 for (i=0;i<aPoint.length;i++){
                     aPoint[i].style ='';
                 }
