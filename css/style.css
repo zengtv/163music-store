@@ -32,8 +32,8 @@ body {
     background-color: #fff;
     top: 50%;
     margin-top: -138px;
-    bottom: auto;
-    right: 80px;
+    left: 50%;
+    margin-left: 570px;
 }
 .fixed ul {
     width: 60px;
